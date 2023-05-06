@@ -1,7 +1,7 @@
 import React from "react";
 import { MdSort } from "react-icons/md";
 import { RiFileCodeLine, RiPhoneFindFill } from "react-icons/ri";
-import { FaLaptopCode, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { HiPaintBrush } from "react-icons/hi2";
 import { SiTailwindcss } from "react-icons/si";
 import {motion as m} from "framer-motion";

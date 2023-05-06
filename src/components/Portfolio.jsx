@@ -44,7 +44,7 @@ const Portfolio = () => {
               className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
             >
               <div id="portfolio-img" className="">
-                <a target="_blank" href="pics\rps.png">
+                <a target="_blank" href="https://pierrerockpaperscissors.netlify.app/">
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\rps.png"
@@ -58,7 +58,7 @@ const Portfolio = () => {
               className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
             >
               <div id="portfolio-img" className="">
-                <a target="_blank" href="pics\todo.png">
+                <a target="_blank" href="https://pierretodolist.netlify.app/">
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\todo.png"
@@ -72,7 +72,7 @@ const Portfolio = () => {
               className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
             >
               <div id="portfolio-img" className="">
-                <a target="_blank" href="pics\calc.png">
+                <a target="_blank" href="https://pierrecalculator.netlify.app/">
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\calc.png"

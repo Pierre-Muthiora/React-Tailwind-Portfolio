@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import { FaHome, FaListUl, FaBriefcase, FaComments } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 
@@ -13,7 +12,7 @@ const Side = ({sideBar, showSideBar, noShowSidebar}) => {
         id="aside"
         className={sideBar ? "fixed left-0 top-0 z-10 w-64 p-14 h-full lg:hidden justify-center items-center dark:bg-gray-900 bg-slate-100 border-r-[1px] dark:border-gray-700 border-gray-300" : "hidden"}>
         <div className="absolute top-12 text-3xl">
-          <a href="#" className="relative font-bold p-4 text-3xl tracking-[5px] dark:text-slate-200">
+          <a href="/" className="relative font-bold p-4 text-3xl tracking-[5px] dark:text-slate-200">
             <div className="absolute left-0 bottom-0 h-5 w-5 border-b-4 border-l-4 border-red-600"></div>
             <div className="absolute top-0 right-0 h-5 w-5 border-t-4 border-r-4 border-red-600"></div>
             <span className="font-clicker text-[40px]">P</span>ierre
@@ -78,7 +77,7 @@ const Side = ({sideBar, showSideBar, noShowSidebar}) => {
       id="asideTwo"
       className="fixed hidden lg:flex left-0 top-0 z-10 w-64 p-14 h-full justify-center items-center dark:bg-gray-900 bg-slate-100 border-r-[1px] dark:border-gray-700 border-gray-300">
       <div className="absolute top-12 text-3xl">
-        <a href="#" className="relative font-bold p-4 text-3xl tracking-[5px] dark:text-slate-200">
+        <a href="/" className="relative font-bold p-4 text-3xl tracking-[5px] dark:text-slate-200">
           <div className="absolute left-0 bottom-0 h-5 w-5 border-b-4 border-l-4 border-red-600"></div>
           <div className="absolute top-0 right-0 h-5 w-5 border-t-4 border-r-4 border-red-600"></div>
           <span className="font-clicker text-[40px]">P</span>ierre

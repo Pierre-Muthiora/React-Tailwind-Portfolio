@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCog, FaMoon } from "react-icons/fa";
+import { FaMoon } from "react-icons/fa";
 import { IoSunnySharp } from "react-icons/io5";
 
 

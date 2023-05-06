@@ -1,5 +1,5 @@
 import React from 'react'
-import {easeOut, motion as m} from "framer-motion";
+import { motion as m} from "framer-motion";
 
 
 const Home = () => {
