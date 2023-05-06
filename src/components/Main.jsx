@@ -1,7 +1,7 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import { BrowserRouter as Router,} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import AnimatedRoutes from "./AnimatedRoutes";
 
 
@@ -28,9 +28,9 @@ const Main = ({ showSideBar, sideBar, router, noShowSideBar }) => {
       {/* =============hamburger menu end=========== */}
       
       
-      <Router>
+      <HashRouter>
           <AnimatedRoutes/>
-        </Router>
+        </HashRouter>
       
     </div>
   );
