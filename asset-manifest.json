@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.85e0ccab.css",
-    "main.js": "/my-portfolio/static/js/main.2d44214b.js",
-    "index.html": "/my-portfolio/index.html",
-    "main.85e0ccab.css.map": "/my-portfolio/static/css/main.85e0ccab.css.map",
-    "main.2d44214b.js.map": "/my-portfolio/static/js/main.2d44214b.js.map"
+    "main.css": "/React-Tailwind-Portfolio/static/css/main.85e0ccab.css",
+    "main.js": "/React-Tailwind-Portfolio/static/js/main.2d44214b.js",
+    "index.html": "/React-Tailwind-Portfolio/index.html",
+    "main.85e0ccab.css.map": "/React-Tailwind-Portfolio/static/css/main.85e0ccab.css.map",
+    "main.2d44214b.js.map": "/React-Tailwind-Portfolio/static/js/main.2d44214b.js.map"
   },
   "entrypoints": [
     "static/css/main.85e0ccab.css",
