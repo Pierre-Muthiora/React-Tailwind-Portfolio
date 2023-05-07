@@ -36,12 +36,16 @@ const Home = () => {
                 A web developer with expertise in frontend programming
                 specialised in React and Tailwind.
               </p>
-              <button
+              
+                <a href="/Contact">
+                <button
                 id="btn hire-me"
                 className="text-base font-medium px-9 py-3 bg-red-600 text-white rounded-full duration-300 hover:scale-105"
               >
-                <a href="/Contact">Hire me</a>
-              </button>
+                  Hire me
+                  </button>
+                  </a>
+              
             </div>
             {/*============ image container ==========*/}
             <div

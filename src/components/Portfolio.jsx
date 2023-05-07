@@ -86,7 +86,7 @@ const Portfolio = () => {
               className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
             >
               <div id="portfolio-img" className="">
-                <a target="_blank" href="pics\modal.png">
+                <a target="_blank" rel="noreferrer" href="pics\modal.png">
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\modal.png"

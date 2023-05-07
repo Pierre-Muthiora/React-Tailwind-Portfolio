@@ -1,5 +1,6 @@
 import React from "react";
 import { MdSort, MdPhoneInTalk, MdMail } from "react-icons/md";
+import { FaGithub} from "react-icons/fa";
 import {motion as m} from "framer-motion";
 
 
@@ -62,10 +63,12 @@ const Contact = () => {
               className="md:flex-[33.33%] text-center mb-14"
             >
               <div id="icon" className="inline-block">
-                <MdPhoneInTalk size={40} className="text-2xl text-red-600" />
+                <FaGithub size={40} className="text-2xl text-red-600" />
               </div>
-              <h4 className="text-lg font-bold mt-4 mb-1.5 dark:text-slate-200">Pnone number</h4>
-              <p className="text-slate-600">+254729393558</p>
+              <h4 className="text-lg font-bold mt-4 mb-1.5 dark:text-slate-200">GitHub</h4>
+              <a target="_blank" rel="noreferrer" href="https://github.com/Pierre-Muthiora">
+                <p className="text-slate-600 hover:scale-105 duration-300">https://github.com/Pierre-Muthiora</p>
+              </a>
             </div>
           </div>
         </div>
