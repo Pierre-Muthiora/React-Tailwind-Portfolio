@@ -269,7 +269,7 @@ const About = () => {
                           id="timeline-text"
                           className="text-justify text-slate-600"
                         >
-                          Also pursuing a web development certificate online.
+                          Also pursuing a web development certificate online
                         </p>
                       </div>
                     </div>
@@ -317,12 +317,12 @@ const About = () => {
                           id="timeline-text"
                           className="text-justify text-slate-600"
                         >
-                          Performed human/machine-initiated transcriptions, resolved discrepancies in files without altrering original meaning, and reviewed transcribed files to correct issues on clarity, terminology, and grammar.
+                          Performed human/machine-initiated transcriptions, resolved discrepancies in files without altrering original meaning, and reviewed transcribed files to correct issues on clarity, terminology, and grammar
                         </p>
                       </div>
                       <div
                         id="timeline-item"
-                        className="relative pl-8
+                        className="relative pl-8 pb-12
                       "
                       >
                         <div
@@ -351,6 +351,40 @@ const About = () => {
                           className="text-justify text-slate-600"
                         >
                           Performed video/audio transcriptions and translations, image annotation, and data categorization
+                        </p>
+                      </div>
+
+                      <div
+                        id="timeline-item"
+                        className="relative pl-8
+                      "
+                      >
+                        <div
+                          id="timeline-item-before"
+                          className="absolute h-full w-px left-[7px] top-0 bg-red-600"
+                        ></div>
+                        <div
+                          id="circle-dot"
+                          className="absolute left-0 top-0 h-3.5 w-3.5 rounded-[50%] bg-red-600"
+                        ></div>
+                        <h3
+                          id="timeline-date"
+                          className="flex items-center text-sm mb-3 text-slate-600 dark:text-slate-200"
+                        >
+                          <MdCalendarMonth size={17} className="mr-1.5" /> 2015
+                          - 2018
+                        </h3>
+                        <h4
+                          id="timeline-title"
+                          className="font-bold text-lg mb-3.5 dark:text-slate-200"
+                        >
+                          Writer at Course Hero
+                        </h4>
+                        <p
+                          id="timeline-text"
+                          className="text-justify text-slate-600"
+                        >
+                          Wrote educational content to be used as study materials
                         </p>
                       </div>
                      
