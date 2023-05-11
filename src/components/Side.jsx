@@ -55,7 +55,7 @@ const Side = ({sideBar, showSideBar, noShowSidebar}) => {
                 href="/Portfolio"
               >
                 <FaBriefcase size={20} className="mr-4" />
-                Portfolio
+                Projects
               </a>
             </li>
             <li className="block mb-5">
@@ -118,7 +118,7 @@ const Side = ({sideBar, showSideBar, noShowSidebar}) => {
               href="/Portfolio"
             >
               <FaBriefcase size={20} className="mr-4" />
-              Portfolio
+              Projects
             </a>
           </li>
           <li className="block mb-5">

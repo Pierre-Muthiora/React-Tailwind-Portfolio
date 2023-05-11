@@ -18,7 +18,7 @@ const Portfolio = () => {
             id="section title"
             className="relative px-4 max-w-full mb-[60px]"
           >
-            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">Portfolio</h2>
+            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">Projects</h2>
             <div className="absolute -bottom-9 left-2.5">
               <MdSort size={50} className="text-red-600" />
             </div>
@@ -27,7 +27,7 @@ const Portfolio = () => {
         <div id="row" className="px-4">
           <div id="portfolio heading">
             <h2 className="text-3xl my-4 font-bold text-gray-700 mb-10 dark:text-slate-200">
-              My projects :
+              My work :
             </h2>
           </div>
         </div>
