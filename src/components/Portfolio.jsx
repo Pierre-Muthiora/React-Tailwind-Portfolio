@@ -95,6 +95,20 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
+            <div
+              id="portfolio item inner"
+              className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
+            >
+              <div id="portfolio-img" className="">
+                <a target="_blank" rel="noreferrer" href="https://pierrenetflixclone.netlify.app/">
+                  <img
+                    className="block w-full hover:opacity-70"
+                    src="pics\Netflix.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
