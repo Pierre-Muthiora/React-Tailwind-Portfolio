@@ -10,8 +10,8 @@ const Main = ({ showSideBar, sideBar, router, noShowSideBar }) => {
       id="main"
       className={
         sideBar
-          ? "dark:bg-gray-950 pl-64 duration-300 z-30 overflow-y-scroll"
-          : "dark:bg-gray-950 duration-300 lg:pl-64 z-30 overflow-y-scroll"
+          ? "dark:bg-gray-950 pl-64 duration-300 z-30"
+          : "dark:bg-gray-950 duration-300 lg:pl-64 z-30"
       }
     >
       {/* =============hamburger menu start========== */}
