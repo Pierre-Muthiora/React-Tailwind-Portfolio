@@ -1,21 +1,26 @@
 import React from "react";
 import { MdSort, MdCalendarMonth } from "react-icons/md";
-import {motion as m} from "framer-motion";
-
-
+import { motion as m } from "framer-motion";
 
 const About = () => {
   return (
     <m.div
-    initial={{x: "100%"}}
-    animate={{x: "0%"}}
-    transition={{duration: 0.8, ease: "easeOut"}}
-    exit={{opacity: 1}} 
-      id="about" className="">
+      initial={{ x: "100%" }}
+      animate={{ x: "0%" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      exit={{ opacity: 1 }}
+      id="about"
+      className=""
+    >
       <div id="container" className="px-3 pt-[60px] pb-[70px]">
         <div id="row">
-          <div id="section-title" className="relative px-4 max-w-full mb-[60px]">
-            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">About me</h2>
+          <div
+            id="section-title"
+            className="relative px-4 max-w-full mb-[60px]"
+          >
+            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
+              About me
+            </h2>
             <div className="absolute -bottom-9 left-2.5">
               <MdSort size={50} className="text-red-600" />
             </div>
@@ -38,7 +43,7 @@ const About = () => {
               </div>
             </div>
             <div id="row" className="flex flex-col lg:flex-row gap-y-16 mt-10">
-               {/*============= personal info =============*/}
+              {/*============= personal info =============*/}
               <div id="personal-info" className="flex-[60%]">
                 <div id="row">
                   <div id="info-item">
@@ -67,21 +72,21 @@ const About = () => {
                   </div>
                 </div>
                 <div id="row">
-                  <div id="buttons" className="flex flex-col lg:flex-row gap-1 px-4 align-bottom">
-                    
-                      <a href="pics\peter resume.docx" download id="btn">
+                  <div
+                    id="buttons"
+                    className="flex flex-col lg:flex-row gap-1 px-4 align-bottom"
+                  >
+                    <a href="pics\peter resume.docx" download id="btn">
                       <button className="text-base font-medium px-5 py-3 bg-red-600 text-white rounded-full duration-300 hover:scale-105 mr-4 mt-2.5">
                         Download CV
-                        </button>
-                        </a>
-                    
-                    
-                      <a href="/Contact" id="btn hire-me">
+                      </button>
+                    </a>
+
+                    <a href="/Contact" id="btn hire-me">
                       <button className="text-base font-medium px-5 py-3 bg-red-600 text-white rounded-full duration-300 hover:scale-105 mr-4 mt-2.5">
                         Hire me
-                        </button>
-                      </a>
-                    
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -89,49 +94,116 @@ const About = () => {
               <div id="skills" className="flex-[40%] px-4">
                 <div id="row">
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">CSS</h5>
-                    <div id="progress" className="relative bg-blue-100 w-full h-2 rounded">
-                      <div id="progress-in" className="w-[76%] absolute left-0 top-0 h-full rounded bg-red-600"></div>
-                      <div id="skill-percent" className="absolute right-0 -top-10 leading-10 dark:text-slate-200">76%</div>
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      CSS
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[76%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        76%
+                      </div>
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">JS</h5>
-                    <div id="progress" className="relative bg-blue-100 w-full h-2 rounded">
-                      <div id="progress-in" className="w-[66%] absolute left-0 top-0 h-full rounded bg-red-600"></div>
-                      <div id="skill-percent" className="absolute right-0 -top-10 leading-10 dark:text-slate-200">66%</div>
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      JS
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[66%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        66%
+                      </div>
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">HTML</h5>
-                    <div id="progress" className="relative bg-blue-100 w-full h-2 rounded">
-                      <div id="progress-in" className="w-[96%] absolute left-0 top-0 h-full rounded bg-red-600"></div>
-                      <div id="skill-percent" className="absolute right-0 -top-10 leading-10 dark:text-slate-200">96%</div>
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      HTML
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[96%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        96%
+                      </div>
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">Tailwind</h5>
-                    <div id="progress" className="relative bg-blue-100 w-full h-2 rounded">
-                      <div id="progress-in" className="w-[96%] absolute left-0 top-0 h-full rounded bg-red-600"></div>
-                      <div id="skill-percent" className="absolute right-0 -top-10 leading-10 dark:text-slate-200">96% </div>
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      Tailwind
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[96%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        96%{" "}
+                      </div>
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">React</h5>
-                    <div id="progress" className="relative bg-blue-100 w-full h-2 rounded">
-                      <div id="progress-in" className="w-[70%] absolute left-0 top-0 h-full rounded bg-red-600"></div>
-                      <div id="skill-percent" className="absolute right-0 -top-10 leading-10 dark:text-slate-200">70%</div>
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      React
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[70%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        70%
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div id="row" className="flex flex-col gap-y-16 md:flex-row mt-12">
-
               {/*================ education =================*/}
 
               <div id="education" className="flex-[50%] pr-2">
-                <h3 id="title" className="text-2xl mb-7 font-bold dark:text-slate-200">
+                <h3
+                  id="title"
+                  className="text-2xl mb-7 font-bold dark:text-slate-200"
+                >
                   Education
                 </h3>
                 <div id="row">
@@ -196,8 +268,9 @@ const About = () => {
                         <h4
                           id="timeline-title"
                           className="font-bold text-lg mb-3.5 dark:text-slate-200"
-                        >  Kenya Certificate of Secondary Education
-
+                        >
+                          {" "}
+                          Kenya Certificate of Secondary Education
                         </h4>
                         <p
                           id="timeline-text"
@@ -278,7 +351,10 @@ const About = () => {
               </div>
               {/*============== experience ==============*/}
               <div id="experience" className="flex-[50%] pl-2">
-                <h3 id="title" className="text-2xl mb-7 font-bold dark:text-slate-200">
+                <h3
+                  id="title"
+                  className="text-2xl mb-7 font-bold dark:text-slate-200"
+                >
                   Experience
                 </h3>
                 <div id="row">
@@ -317,7 +393,10 @@ const About = () => {
                           id="timeline-text"
                           className="text-justify text-slate-600"
                         >
-                          Performed human/machine-initiated transcriptions, resolved discrepancies in files without altrering original meaning, and reviewed transcribed files to correct issues on clarity, terminology, and grammar
+                          Performed human/machine-initiated transcriptions,
+                          resolved discrepancies in files without altrering
+                          original meaning, and reviewed transcribed files to
+                          correct issues on clarity, terminology, and grammar
                         </p>
                       </div>
                       <div
@@ -350,7 +429,8 @@ const About = () => {
                           id="timeline-text"
                           className="text-justify text-slate-600"
                         >
-                          Performed video/audio transcriptions and translations, image annotation, and data categorization
+                          Performed video/audio transcriptions and translations,
+                          image annotation, and data categorization
                         </p>
                       </div>
 
@@ -384,10 +464,10 @@ const About = () => {
                           id="timeline-text"
                           className="text-justify text-slate-600"
                         >
-                          Wrote educational content to be used as study materials
+                          Wrote educational content to be used as study
+                          materials
                         </p>
                       </div>
-                     
                     </div>
                   </div>
                 </div>

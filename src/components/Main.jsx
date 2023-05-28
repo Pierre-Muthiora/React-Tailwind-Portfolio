@@ -1,18 +1,18 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
-import { BrowserRouter as Router } from "react-router-dom";
+
 import AnimatedRoutes from "./AnimatedRoutes";
 
-
-
 const Main = ({ showSideBar, sideBar, router, noShowSideBar }) => {
-  
   return (
     <div
-      
-      id="main"    
-      className={sideBar ? "dark:bg-gray-950 pl-64 duration-300 z-30" : "dark:bg-gray-950 duration-300 lg:pl-64 z-30"}
+      id="main"
+      className={
+        sideBar
+          ? "dark:bg-gray-950 pl-64 duration-300 z-30 overflow-y-scroll"
+          : "dark:bg-gray-950 duration-300 lg:pl-64 z-30 overflow-y-scroll"
+      }
     >
       {/* =============hamburger menu start========== */}
       <div
@@ -26,12 +26,8 @@ const Main = ({ showSideBar, sideBar, router, noShowSideBar }) => {
         )}
       </div>
       {/* =============hamburger menu end=========== */}
-      
-      
-      <Router>
-          <AnimatedRoutes/>
-        </Router>
-      
+
+      <AnimatedRoutes />
     </div>
   );
 };
