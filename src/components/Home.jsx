@@ -35,7 +35,7 @@ const Home = () => {
             </h3>
             <p className="mb-[70px] text-xl text-slate-600 text-justify">
               A web developer with expertise in frontend programming specialised
-              in React and Tailwind.
+              in React JS, Next JS, and Tailwind CSS.
             </p>
 
             <a href="/Contact">

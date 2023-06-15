@@ -95,7 +95,7 @@ const About = () => {
                 <div id="row">
                   <div id="skill-item" className="max-w-full mb-6">
                     <h5 className="leading-10 font-semibold dark:text-slate-200">
-                      CSS
+                      Next JS
                     </h5>
                     <div
                       id="progress"
@@ -155,7 +155,7 @@ const About = () => {
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
                     <h5 className="leading-10 font-semibold dark:text-slate-200">
-                      Tailwind
+                      Tailwind CSS
                     </h5>
                     <div
                       id="progress"
@@ -175,7 +175,7 @@ const About = () => {
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
                     <h5 className="leading-10 font-semibold dark:text-slate-200">
-                      React
+                      React JS
                     </h5>
                     <div
                       id="progress"
