@@ -59,7 +59,7 @@ const Home = () => {
             <div className="hidden lg:block absolute right-0 bottom-0 h-20 w-20 border-b-8 border-r-8 border-red-600"></div>
             <img
               className="h-[400px] m-auto pb-6 rounded-full"
-              src="pics\me1.png"
+              src="pics\myself.png"
               alt="me"
             />
           </m.div>

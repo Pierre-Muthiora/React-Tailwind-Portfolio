@@ -35,10 +35,19 @@ const About = () => {
                   <span className="text-red-600">Web Developer/Designer</span>
                 </h3>
                 <p className="text-slate-600 text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-                  molestiae! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit. Suscipit facilis, magni
-                  quod sapiente aspernatur deleniti.
+                  Passionate about the IT world and with no prior experience, I
+                  saw it ideal to start with web development cause of numerous
+                  interactions with different web pages and seeing how a
+                  well-put site attracts people, therefore growing one's blog,
+                  business, etc. <br /> I'm a self-taught programmer specialized
+                  so far with some of the trending and most used web
+                  technologies including Tailwind CSS, React, and Next JS.
+                  <br /> The projects I've done in my{" "}
+                  <span className="text-blue-700 underline underline-offset-1">
+                    <a href="/Portfolio">Projects' page</a>
+                  </span>{" "}
+                  clearly encompass aspects of the five programming languages
+                  listed below.
                 </p>
               </div>
             </div>
