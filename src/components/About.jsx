@@ -1,6 +1,7 @@
 import React from "react";
 import { MdSort, MdCalendarMonth } from "react-icons/md";
 import { motion as m } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
@@ -12,6 +13,15 @@ const About = () => {
       id="about"
       className=""
     >
+      <Helmet>
+        <title>About</title>
+        <meta
+          name="description"
+          content="Knowledge of incorporating SEO (Search Engine Optimization) methods"
+        />
+        <link rel="canonical" href="/About" />
+      </Helmet>
+
       <div id="container" className="px-3 pt-[60px] pb-[70px]">
         <div id="row">
           <div
@@ -41,7 +51,11 @@ const About = () => {
                   well-put site attracts people, therefore growing one's blog,
                   business, etc. <br /> I'm a self-taught programmer specialized
                   so far with some of the trending and most used web
-                  technologies including Tailwind CSS, React, and Next JS.
+                  technologies including Tailwind CSS, React, and Next JS. And
+                  in those respective languages I've gained knowledge of
+                  incorporating SEO (Search Engine Optimization) methods to get
+                  higher rankings on search engines which in turn creates a
+                  larger target audience.
                   <br /> The projects I've done in my{" "}
                   <span className="text-blue-700 underline underline-offset-1">
                     <a href="/Portfolio">Projects' page</a>
@@ -199,6 +213,26 @@ const About = () => {
                         className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
                       >
                         70%
+                      </div>
+                    </div>
+                  </div>
+                  <div id="skill-item" className="max-w-full mb-6">
+                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                      WordPress
+                    </h5>
+                    <div
+                      id="progress"
+                      className="relative bg-blue-100 w-full h-2 rounded"
+                    >
+                      <div
+                        id="progress-in"
+                        className="w-[50%] absolute left-0 top-0 h-full rounded bg-red-600"
+                      ></div>
+                      <div
+                        id="skill-percent"
+                        className="absolute right-0 -top-10 leading-10 dark:text-slate-200"
+                      >
+                        50%
                       </div>
                     </div>
                   </div>

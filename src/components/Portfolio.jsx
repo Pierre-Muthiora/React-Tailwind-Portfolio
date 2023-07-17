@@ -1,6 +1,7 @@
 import React from "react";
 import { MdSort } from "react-icons/md";
 import { motion as m } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const Portfolio = () => {
   return (
@@ -12,6 +13,15 @@ const Portfolio = () => {
       id="portfolio"
       className=""
     >
+      <Helmet>
+        <title>Projects</title>
+        <meta
+          name="description"
+          content="Projects done over time utilizing languages I've specialized in."
+        />
+        <link rel="canonical" href="/Portfolio" />
+      </Helmet>
+
       <div id="container" className="-mb-7 px-3 pt-[60px]">
         <div id="row">
           <div
@@ -157,6 +167,24 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\nextportfolio.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              id="portfolio item inner"
+              className="border-4 dark:border-gray-700 rounded-lg cursor-pointer"
+            >
+              <div id="portfolio-img" className="">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://pierrengash.wordpress.com/2023/07/13/eat-your-way-to-optimal-health-unveiling-the-top-5-superfoods-you-must-try/"
+                >
+                  <img
+                    className="block w-full hover:opacity-70"
+                    src="pics\blog.png"
                     alt=""
                   />
                 </a>

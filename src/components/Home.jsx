@@ -1,5 +1,6 @@
 import React from "react";
 import { motion as m } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
@@ -11,6 +12,15 @@ const Home = () => {
       id="home"
       className=" flex min-h-screen opacity-100 px-3"
     >
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="Frontend Web developer/designer in React JS, Next JS, WordPress, and Tailwind CSS"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
+
       <div id="container" className="m-auto w-full">
         <div id="row" className="relative flex flex-col-reverse lg:flex-row">
           {/*========= home-info container ==========*/}
@@ -35,7 +45,7 @@ const Home = () => {
             </h3>
             <p className="mb-[70px] text-xl text-slate-600 text-justify">
               A web developer with expertise in frontend programming specialised
-              in React JS, Next JS, and Tailwind CSS.
+              in React JS, Next JS, WordPress, and Tailwind CSS.
             </p>
 
             <a href="/Contact">
