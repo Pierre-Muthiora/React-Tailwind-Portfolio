@@ -1,0 +1,5 @@
+https://pierreportfolio.netlify.app/
+https://pierreportfolio.netlify.app/About
+https://pierreportfolio.netlify.app/Services
+https://pierreportfolio.netlify.app/Portfolio
+https://pierreportfolio.netlify.app/Contact
