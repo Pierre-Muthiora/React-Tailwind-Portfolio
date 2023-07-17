@@ -1,8 +1,7 @@
 import React from "react";
 import { MdSort } from "react-icons/md";
-import { RiFileCodeLine, RiPhoneFindFill } from "react-icons/ri";
+import { RiFileCodeLine } from "react-icons/ri";
 import { TiSpanner } from "react-icons/ti";
-import { HiPaintBrush } from "react-icons/hi2";
 import { SiTailwindcss, SiNetlify } from "react-icons/si";
 import { motion as m } from "framer-motion";
 import { Helmet } from "react-helmet-async";
