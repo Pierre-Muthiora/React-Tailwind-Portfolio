@@ -20,6 +20,11 @@ const Portfolio = () => {
           content="Projects done over time utilizing languages I've specialized in."
         />
         <link rel="canonical" href="/Portfolio" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JS, Tailwind, React, Next, WordPress, front end, web development, web design, SEO, freelance"
+        />
+        <meta name="author" content="Peter Ng'ang'a Muthiora" />
       </Helmet>
 
       <div id="container" className="-mb-7 px-3 pt-[60px]">

@@ -23,6 +23,11 @@ const Services = () => {
           content="I offer development, design, deployment, and maintenance of websites."
         />
         <link rel="canonical" href="/Services" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JS, Tailwind, React, Next, WordPress, front end, web development, web design, SEO, freelance"
+        />
+        <meta name="author" content="Peter Ng'ang'a Muthiora" />
       </Helmet>
 
       <div id="container" className="px-3 pt-[60px]">

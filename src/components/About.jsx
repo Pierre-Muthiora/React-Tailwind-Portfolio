@@ -20,6 +20,11 @@ const About = () => {
           content="Knowledge of incorporating SEO (Search Engine Optimization) methods"
         />
         <link rel="canonical" href="/About" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JS, Tailwind, React, Next, WordPress, front end, web development, web design, SEO, freelance"
+        />
+        <meta name="author" content="Peter Ng'ang'a Muthiora" />
       </Helmet>
 
       <div id="container" className="px-3 pt-[60px] pb-[70px]">

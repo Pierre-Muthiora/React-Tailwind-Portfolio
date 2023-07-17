@@ -19,6 +19,11 @@ const Home = () => {
           content="Frontend Web developer/designer in React JS, Next JS, WordPress, and Tailwind CSS"
         />
         <link rel="canonical" href="/" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JS, Tailwind, React, Next, WordPress, front end, web development, web design, SEO, freelance"
+        />
+        <meta name="author" content="Peter Ng'ang'a Muthiora" />
       </Helmet>
 
       <div id="container" className="m-auto w-full">

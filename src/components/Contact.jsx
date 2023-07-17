@@ -18,6 +18,11 @@ const Contact = () => {
         <title>Contact</title>
         <meta name="description" content="Get in touch with me" />
         <link rel="canonical" href="/Contact" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JS, Tailwind, React, Next, WordPress, front end, web development, web design, SEO, freelance"
+        />
+        <meta name="author" content="Peter Ng'ang'a Muthiora" />
       </Helmet>
 
       <div id="container" className="px-3 pt-[60px]">
