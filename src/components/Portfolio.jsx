@@ -33,9 +33,9 @@ const Portfolio = () => {
             id="section title"
             className="relative px-4 max-w-full mb-[60px]"
           >
-            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
+            <h1 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
               Projects
-            </h2>
+            </h1>
             <div className="absolute -bottom-9 left-2.5">
               <MdSort size={50} className="text-red-600" />
             </div>
@@ -68,7 +68,9 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\rps.png"
-                    alt=""
+                    alt="rps"
+                    width="100%"
+                    height="100%"
                   />
                 </a>
               </div>
@@ -86,7 +88,9 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\todo.png"
-                    alt=""
+                    alt="todo"
+                    width="100%"
+                    height="100%"
                   />
                 </a>
               </div>
@@ -104,7 +108,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\calc.png"
-                    alt=""
+                    alt="calculator"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -118,7 +125,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\modal.png"
-                    alt=""
+                    alt="modal"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -136,7 +146,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\Netflix.png"
-                    alt=""
+                    alt="netflix"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -154,7 +167,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\weather.png"
-                    alt=""
+                    alt="weather"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -172,7 +188,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\nextportfolio.png"
-                    alt=""
+                    alt="portfolio template"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>
@@ -190,7 +209,10 @@ const Portfolio = () => {
                   <img
                     className="block w-full hover:opacity-70"
                     src="pics\blog.png"
-                    alt=""
+                    alt="blog"
+                    width="100%"
+                    height="100%"
+                    loading="lazy"
                   />
                 </a>
               </div>

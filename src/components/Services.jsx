@@ -36,9 +36,9 @@ const Services = () => {
             id="section title"
             className="relative px-4 max-w-full mb-[60px]"
           >
-            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
+            <h1 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
               Services
-            </h2>
+            </h1>
             <div className="absolute -bottom-9 left-2.5">
               <MdSort size={50} className="text-red-600" />
             </div>
@@ -59,9 +59,9 @@ const Services = () => {
               >
                 <RiFileCodeLine size={60} className="text-red-600" />
               </div>
-              <h4 className="text-lg mb-4 font-bold dark:text-slate-200">
+              <h2 className="text-lg mb-4 font-bold dark:text-slate-200">
                 Web development
-              </h4>
+              </h2>
               <p className="text-slate-600">
                 Creating a website for the Internet or an intranet, ranging from
                 developing a simple single static page of plain text to complex
@@ -78,9 +78,9 @@ const Services = () => {
               >
                 <SiTailwindcss size={60} className="text-red-600" />
               </div>
-              <h4 className="text-lg mb-4 font-bold dark:text-slate-200">
+              <h2 className="text-lg mb-4 font-bold dark:text-slate-200">
                 Web design
-              </h4>
+              </h2>
               <p className="text-slate-600">
                 Planning, conceptualizing, and implementing the plan for
                 designing a website in a way that is functional and offers a
@@ -99,9 +99,9 @@ const Services = () => {
               >
                 <SiNetlify size={60} className="text-red-600" />
               </div>
-              <h4 className="text-lg mb-4 font-bold dark:text-slate-200">
+              <h2 className="text-lg mb-4 font-bold dark:text-slate-200">
                 Web deployment
-              </h4>
+              </h2>
               <p className="text-slate-600">
                 Using client-server tools for syncing content and configuration
                 to IIS, ie, publishing websites to the Internet.
@@ -117,9 +117,9 @@ const Services = () => {
               >
                 <TiSpanner size={60} className="text-red-600" />
               </div>
-              <h4 className="text-lg mb-4 font-bold dark:text-slate-200">
+              <h2 className="text-lg mb-4 font-bold dark:text-slate-200">
                 Web maintenance
-              </h4>
+              </h2>
               <p className="text-slate-600">
                 Keeping a website up-to-date and running smoothly as well as
                 performing optimally. Ensuring links on sites are working,

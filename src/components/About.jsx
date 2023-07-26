@@ -33,9 +33,9 @@ const About = () => {
             id="section-title"
             className="relative px-4 max-w-full mb-[60px]"
           >
-            <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
+            <h1 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
               About me
-            </h2>
+            </h1>
             <div className="absolute -bottom-9 left-2.5">
               <MdSort size={50} className="text-red-600" />
             </div>
@@ -45,10 +45,10 @@ const About = () => {
           <div id="about-content" className="px-4 max-w-full">
             <div id="row">
               <div id="about-text" className="max-w-full">
-                <h3 className="text-2xl mb-4 font-bold text-gray-700 dark:text-slate-200">
+                <h2 className="text-2xl mb-4 font-bold text-gray-700 dark:text-slate-200">
                   I'm Peter Ng'ang'a, a{" "}
                   <span className="text-red-600">Web Developer/Designer</span>
-                </h3>
+                </h2>
                 <p className="text-slate-600 text-justify">
                   Passionate about the IT world and with no prior experience, I
                   saw it ideal to start with web development cause of numerous
@@ -122,9 +122,9 @@ const About = () => {
               <div id="skills" className="flex-[40%] px-4">
                 <div id="row">
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       Next JS
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"
@@ -142,9 +142,9 @@ const About = () => {
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       JS
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"
@@ -162,9 +162,9 @@ const About = () => {
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       HTML
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"
@@ -182,9 +182,9 @@ const About = () => {
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       Tailwind CSS
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"
@@ -202,9 +202,9 @@ const About = () => {
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       React JS
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"
@@ -222,9 +222,9 @@ const About = () => {
                     </div>
                   </div>
                   <div id="skill-item" className="max-w-full mb-6">
-                    <h5 className="leading-10 font-semibold dark:text-slate-200">
+                    <h3 className="leading-10 font-semibold dark:text-slate-200">
                       WordPress
-                    </h5>
+                    </h3>
                     <div
                       id="progress"
                       className="relative bg-blue-100 w-full h-2 rounded"

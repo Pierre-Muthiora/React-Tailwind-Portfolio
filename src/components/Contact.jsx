@@ -27,9 +27,9 @@ const Contact = () => {
 
       <div id="container" className="px-3 pt-[60px]">
         <div id="section title" className="relative px-4 max-w-full mb-[60px]">
-          <h2 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
+          <h1 className="text-4xl my-4 font-bold font-serif dark:text-slate-200">
             Contact
-          </h2>
+          </h1>
           <div className="absolute -bottom-9 left-2.5">
             <MdSort size={50} className="text-red-600" />
           </div>
@@ -37,18 +37,18 @@ const Contact = () => {
 
         <div id="row" className="px-4">
           <div className="mb-14">
-            <h3
+            <h2
               id="contact-title"
               className="text-red-600 text-center text-3xl md:text-4xl mb-5 font-bold"
             >
               Feel free to contact me
-            </h3>
-            <h4
+            </h2>
+            <h3
               id="contact sub-title"
               className="text-center text-slate-700 font-semibold text-xl"
             >
               I'm @ your service
-            </h4>
+            </h3>
           </div>
 
           <div id="contact into item container" className="md:flex mb-32">
@@ -100,12 +100,12 @@ const Contact = () => {
         </div>
 
         <div id="row" className="px-4">
-          <h3
+          <h4
             id="contact-title"
             className="text-red-600 text-center text-3xl md:text-4xl mb-5 font-bold"
           >
             Send me an email
-          </h3>
+          </h4>
           <h4
             id="contact sub-title"
             className="text-center text-xl text-slate-700 font-semibold"

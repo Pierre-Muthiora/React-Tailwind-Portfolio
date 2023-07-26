@@ -30,7 +30,7 @@ const Home = () => {
         <div id="row" className="relative flex flex-col-reverse lg:flex-row">
           {/*========= home-info container ==========*/}
           <div id="home info" className="px-4 max-w-full lg:max-w-[60%] mb-16">
-            <h3
+            <h1
               id="hello"
               className="text-3xl my-4 font-bold font-serif dark:text-slate-200"
             >
@@ -41,13 +41,13 @@ const Home = () => {
               >
                 Peter Ng'ang'a
               </span>
-            </h3>
-            <h3 className="text-3xl my-4 font-bold text-gray-700 dark:text-slate-200">
+            </h1>
+            <h2 className="text-3xl my-4 font-bold text-gray-700 dark:text-slate-200">
               I'm a{" "}
               <span id="typing" className="text-red-600">
                 Web developer/designer
               </span>
-            </h3>
+            </h2>
             <p className="mb-[70px] text-xl text-slate-600 text-justify">
               A web developer with expertise in frontend programming specialised
               in React JS, Next JS, WordPress, and Tailwind CSS.
@@ -76,6 +76,8 @@ const Home = () => {
               className="h-[400px] m-auto pb-6 rounded-full"
               src="pics\myself.png"
               alt="me"
+              width="100%"
+              height="100%"
             />
           </m.div>
         </div>
